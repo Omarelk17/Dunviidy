@@ -473,7 +473,7 @@ if GLOBAL_LOGIN_REQUIRED:
     ]
 
 # if True, only show original, don't perform any action on videos
-DO_NOT_TRANSCODE_VIDEO = False
+DO_NOT_TRANSCODE_VIDEO = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
